@@ -105,6 +105,7 @@ body{
     padding: 12px;
     width: 100%;
     cursor: pointer;
+    outline: 0;
 }
 
 .contact-box button:hover{
