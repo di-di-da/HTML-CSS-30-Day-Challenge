@@ -23,3 +23,52 @@ p {
     letter-spacing: 2px;
     margin: 0;
 }
+
+/* RETURN HOME BUTTON AND LINK TO GITHUB */
+
+.floating-btn {
+    border-radius: 27px;
+    background-color: rgb(49, 146, 136);
+    border: 1px solid rgb(49, 146, 136);
+    box-shadow: 0 16px 22px -17px #023127;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 900;
+}
+
+.floating-btn:hover {
+    background-color: #fff;
+    color: #023127;
+}
+
+.floating-btn:focus {
+    outline:none;
+}
+
+.floating-text {
+    background-color:rgb(49, 146, 136);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 998;
+}
+
+.floating-text a {
+    color: #fff;
+}
+
+.floating-text a:hover{
+    color: #023127;
+}
