@@ -2,8 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-1: #40e0d0;
+    --color-2: #40e075;
+}
+
 body {
-    background-color: turquoise;
+    background: linear-gradient(to left, var(--color-1), var(--color-2));
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
