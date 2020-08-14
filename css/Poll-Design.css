@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(216, 165, 123);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    background: rgb(170, 125, 89);
+    border: 10px solid  #fff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    width: 400px;
+    max-width: 100%;
+}
+
+.box h1 {
+    margin: 0, 0, 27px;
+}
+
+p {
+    color: rgb(41, 22, 7);
+}
